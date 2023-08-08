@@ -1,3 +1,11 @@
+Update
+```
+apt-get update
+```
+Pip
+```
+apt install python3-pip
+```
 Clone
 ```
 git clone https://github.com/cx410/Loader.git
