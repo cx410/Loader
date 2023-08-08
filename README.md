@@ -1,24 +1,24 @@
 Clone
 ```
-$ git clone https://github.com/cx410/Loader.git
+git clone https://github.com/cx410/Loader.git
 ```
 Folder
 ```
-$ cd Loader
+cd Loader
 ````
 config
 ```
-$ mv config.env.sample config.env
+mv config.env.sample config.env
 ```
 Build
 ```
-$ docker build . -t userge
+docker build . -t userge
 ```
 Run
 ```
-$ docker run -d --restart on-failure --name userge_1 userge
+docker run -d --restart on-failure --name userge_1 userge
 ```
 Log
 ```
-$ docker logs userge_1
+docker logs userge_1
 ```
