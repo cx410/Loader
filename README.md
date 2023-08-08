@@ -14,9 +14,13 @@ Folder
 ```
 cd Loader
 ````
-config
+Config
 ```
 mv config.env.sample config.env
+```
+Edit config
+```
+nano config.env
 ```
 Build
 ```
